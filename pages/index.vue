@@ -68,7 +68,7 @@
                     </p>
                     <div class="grid mt-8 gap-y-5 grid-cols-1 md:grid-cols-3 xl:grid-cols-4">
                         <div>
-                            <nuxt-link to="/flights-to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
+                            <nuxt-link to="/flights-to-new-york-city" class=" hover:cursor-pointer hover:text-sky-500">
                                 <span>Find Cheap Flights to New York</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
@@ -79,8 +79,8 @@
                             </nuxt-link>  
                         </div>
                         <div>
-                            <nuxt-link to="/flights-to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights to New York</span>
+                            <nuxt-link to="/flights-to-london-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to London</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 
@@ -90,8 +90,8 @@
                             </nuxt-link>  
                         </div>
                         <div>
-                            <nuxt-link to="/flights-to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights to New York</span>
+                            <nuxt-link to="/flights-to-Dubai-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to Dubai</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 
@@ -101,8 +101,8 @@
                             </nuxt-link>  
                         </div>
                         <div>
-                            <nuxt-link to="/flights-to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights to New York</span>
+                            <nuxt-link to="/flights-to-sydney-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to Sydney</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 
@@ -112,8 +112,8 @@
                             </nuxt-link>  
                         </div>
                         <div>
-                            <nuxt-link to="/flights-to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights to New York</span>
+                            <nuxt-link to="/flights-to-Paris-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to Paris</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 
@@ -123,8 +123,8 @@
                             </nuxt-link>  
                         </div>
                         <div>
-                            <nuxt-link to="/flights-to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights to New York</span>
+                            <nuxt-link to="/flights-to-Istanbul-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to Istanbul</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 
@@ -134,8 +134,8 @@
                             </nuxt-link>  
                         </div>
                         <div>
-                            <nuxt-link to="/flights-to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights to New York</span>
+                            <nuxt-link to="/flights-to-bangkok-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to Bangkok</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 
@@ -145,8 +145,8 @@
                             </nuxt-link>  
                         </div>
                         <div>
-                            <nuxt-link to="/flights-to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights to New York</span>
+                            <nuxt-link to="/flights-to-brussels-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to Brussels</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 
@@ -156,8 +156,8 @@
                             </nuxt-link>  
                         </div>
                         <div>
-                            <nuxt-link to="/flights-to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights to New York</span>
+                            <nuxt-link to="/flights-to-Tokyo-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to Tokyo</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 
@@ -167,8 +167,8 @@
                             </nuxt-link>  
                         </div>
                         <div class="hidden md:block">
-                            <nuxt-link to="/flights-to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights to New York</span>
+                            <nuxt-link to="/flights-to-beijing-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to Beijing</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 
@@ -178,8 +178,8 @@
                             </nuxt-link>  
                         </div>
                         <div class="hidden md:block">
-                            <nuxt-link to="/flights-to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights to New York</span>
+                            <nuxt-link to="/flights-to-singapore-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to Singapore</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 
@@ -189,8 +189,8 @@
                             </nuxt-link>  
                         </div>
                         <div class="hidden md:block">
-                            <nuxt-link to="/flights-to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights to New York</span>
+                            <nuxt-link to="/flights-to-amsterdam-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to Amsterdam</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 
@@ -200,8 +200,8 @@
                             </nuxt-link>  
                         </div>
                         <div class="hidden md:block">
-                            <nuxt-link to="/flights-to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights to New York</span>
+                            <nuxt-link to="/flights-to-chicago-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to Chicago</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 
@@ -211,8 +211,8 @@
                             </nuxt-link>  
                         </div>
                         <div class="hidden md:block">
-                            <nuxt-link to="/flights-to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights to New York</span>
+                            <nuxt-link to="/flights-to-san-francisco-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to San Francisco</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 
@@ -222,8 +222,8 @@
                             </nuxt-link>  
                         </div>
                         <div class="hidden md:block">
-                            <nuxt-link to="/flights-:to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights :to New York</span>
+                            <nuxt-link to="/flights-:to-las-vegas-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to las Vegas</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 
@@ -233,8 +233,8 @@
                             </nuxt-link>  
                         </div>
                         <div class="hidden md:block">
-                            <nuxt-link to="/flights-:to-New York-city" class=" hover:cursor-pointer hover:text-sky-500">
-                                <span>Find Cheap Flights :to New York</span>
+                            <nuxt-link to="/flights-:to-barcelona-city" class=" hover:cursor-pointer hover:text-sky-500">
+                                <span>Find Cheap Flights to Barcelona</span>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor" stroke-width="0.8" 
                                         class="ml-2 inline-block bi bi-box-arrow-up-right" viewBox="0 0 16 16"> 

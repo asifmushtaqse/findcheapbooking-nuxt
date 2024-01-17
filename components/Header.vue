@@ -7,7 +7,7 @@
                 </svg>                  
             </button>
             <div class="">
-                <ul v-show="menu" class=" absolute top-0 left-0 right-0 text-gray-800 mt-11 px-4 pt-2 pb-4 -ml-4 w-48 bg-gray-50 shadow space-y-1 font-normal rounded-b-lg border-t-4 border-sky-500">
+                <ul v-show="menu" class=" absolute top-0 left-0 right-0 text-gray-900 mt-11 px-4 pt-2 pb-4 -ml-4 w-48 bg-gray-50 shadow space-y-2 font-normal rounded-b-lg border-t-4 border-sky-500">
                     <li class="hover:text-sky-500">
                         <nuxt-link to="/flights-by-cities"> Flights by Cities</nuxt-link>
                     </li>
@@ -48,7 +48,7 @@
                         </svg>
                     </span>
                 </button>
-                <ul v-show="show" class="absolute slide-fade top-0 left-0 right-0 mt-11 -ml-10 px-6 pt-2 pb-4 w-56 bg-gray-50 shadow space-y-1 text-gray-500 font-normal rounded-b-lg border-t-4 border-sky-500">
+                <ul v-show="show" class="absolute slide-fade top-0 left-0 right-0 mt-11 -ml-10 px-6 pt-2 pb-4 w-56 bg-gray-50 shadow space-y-2 text-gray-700 font-normal rounded-b-lg border-t-4 border-sky-500">
                     
                     <li class="hover:text-sky-500">
                         <nuxt-link to="/flights-by-cities"> Flights by Cities</nuxt-link>
