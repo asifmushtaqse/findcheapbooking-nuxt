@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-center px-6 py-24">
         <div class="max-w-[1500px]">
-            <Search />
+            
             <!-- Detail goes here -->
             <div class="ml-2">
                 <h1 class=" text-2xl font-bold">
@@ -10,10 +10,11 @@
                 <h2 class=" pt-4 text-xl text-gray-600">
                     Getting Cheap Flights & Hotels in all the States Worldwide for 75% OFF and More
                 </h2>
+                <Search />
                 <div
                     class="grid space-y-2 py-12 text-sm md:text-base grid-cols-2 md:grid-cols-3 xl:grid-cols-4 place-items-start">
                     <div v-for="state in states" :key="state">
-                        <nuxt-link :to="'flights-to-'+state+'-state'"
+                        <nuxt-link :to="stringToUrl('flights-to-'+state+'-state')"
                             class="hover:cursor-pointer text-sky-600 hover:text-sky-500">
                             Flights to {{ state }}
                         </nuxt-link>

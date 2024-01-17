@@ -1,26 +1,25 @@
 <template>
     <div class="flex justify-center px-6 py-24">
         <div class="max-w-[1500px]">
+            <h1 class=" text-2xl font-bold">
+                Flights to Best Airports
+            </h1>
+            <h2 class=" pt-4 text-xl text-gray-600">
+                Getting Cheap Flights & Hotels in Major Airports Worldwide for 75% OFF and More
+            </h2>
             <Search />
+            <div
+                class="grid space-y-2 py-12 text-sm md:text-base grid-cols-2 md:grid-cols-3 xl:grid-cols-4 place-items-start">
+                <div v-for="airline in airlines" :key="airline">
+                    
+                    <nuxt-link :to="stringToUrl('flights-to-'+airline+'-airline')"
+                        class="hover:cursor-pointer text-sky-600 hover:text-sky-500">
+                        {{ airline }} Flights
+                    </nuxt-link>
+                </div>
+            </div>
             <!-- Detail goes here -->
             <div class="ml-2 max-w-[1500px] ">
-                <h1 class=" text-2xl font-bold">
-                    Flights to Best Airports
-                </h1>
-                <h2 class=" pt-4 text-xl text-gray-600">
-                    Getting Cheap Flights & Hotels in Major Airports Worldwide for 75% OFF and More
-                </h2>
-                <div
-                    class="grid space-y-2 py-12 text-sm md:text-base grid-cols-2 md:grid-cols-3 xl:grid-cols-4 place-items-start">
-                    <div v-for="airline in airlines" :key="airline">
-                      
-                        <nuxt-link :to="'flights-to-'+airline+'-airline'"
-                            class="hover:cursor-pointer text-sky-600 hover:text-sky-500">
-                            {{ airline }} Flights
-                        </nuxt-link>
-                    </div>
-                </div>
-
                 <div class="External Links">
                     <ul class="flex flex-col lg:flex-row lg:space-x-6 space-y-6 lg:space-y-0 mt-4 font-medium">
                         <li class="">

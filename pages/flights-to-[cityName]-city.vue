@@ -1,13 +1,13 @@
 <template>
     <div class="flex justify-center text-gray-900 px-6 py-24">
         <div class="max-w-[1500px]">
-            <SearchComp />
+            <h1 class="text-3xl font-semibold text-center">
+                <span class="">{{ urlToString(cityName.charAt(0).toUpperCase() + cityName.slice(1)) }}</span> Flights
+            </h1>
+            <Search :search="'Search ' + urlToString(cityName.charAt(0).toUpperCase() + cityName.slice(1)) + ' flights'" />
             <!-- Detail goes here -->
             <div class="px-2 ">
-                <h1 class="text-3xl font-semibold">
-                    <span class="">{{ urlToString(cityName.charAt(0).toUpperCase() + cityName.slice(1)) }}</span> Flights
-                </h1>
-                <h2 class=" mt-10 text-xl font-medium">
+                <h2 class="text-xl font-medium">
                     Getting Cheap Flights & Hotels in <span class="font-bold">{{ urlToString(cityName.charAt(0).toUpperCase() + cityName.slice(1)) }}</span> Worldwide for 75% OFF and More
                 </h2>
                 <div>
