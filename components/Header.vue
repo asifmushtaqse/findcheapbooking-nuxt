@@ -1,10 +1,11 @@
 <template>
     <div
-        class="fixed top-0 z-50 flex font-medium py-6 px-4 w-full text-lg text-gray-900 justify-between items-center border-b-[1px] border-primarGray bg-white">
+        class="fixed top-0 z-50 flex font-medium py-6 px-4 w-full text-lg text-gray-900 justify-between items-center border-b-[1px] border-primaryGray bg-white">
+        <!-- Mobile View -->
         <div class="flex items-center relative md:hidden">
             <button @click="menu = !menu" >
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24"> <g> <path fill="none" d="M0 0h24v24H0z"/> <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"/> </g> 
-                </svg>                  
+                </svg>
             </button>
             <div class="">
                 <ul v-show="menu" class="absolute top-0 left-0 right-0 text-gray-900 mt-11 pt-2 pb-4 -ml-4 w-48 bg-gray-50 shadow font-normal rounded-b-lg border-t-4">
@@ -25,6 +26,7 @@
                 </ul>
             </div>
         </div>
+        <!--   Desktop View   -->
         <div>
             <nuxt-link to="/">
                 <div class="flex items-center">
@@ -38,7 +40,7 @@
             <li class=" hover:text-sky-500 hover:cursor-pointer">
                 <nuxt-link to="/">Home</nuxt-link>
             </li>
-            <li class="relative inline-block items-center  ">
+            <li class="relative inline-block items-center  " ref="dropdownRef">
                 <button @click="show = !show" class="hover:text-sky-500 hover:cursor-pointer">
                     <nuxt-link to="">Flights</nuxt-link>
                     <span class="inline-block ml-1 ">
@@ -51,19 +53,19 @@
                 <ul v-show="show" class="absolute slide-fade top-0 left-0 right-0 mt-11 -ml-10 pt-2 pb-4 w-56 bg-gray-50 shadow text-gray-700 font-normal rounded-b-lg border-t-4">
                     
                     <li class="hover:text-sky-500 py-2 px-2">
-                        <nuxt-link to="/flights-by-cities"> Flights by Cities</nuxt-link>
+                        <nuxt-link to="/flights-by-cities" @click="hideDropdown"> Flights by Cities</nuxt-link>
                     </li>
                     <!-- <hr class="h-px my-1 mb-4 bg-gray-300 border-0"> -->
                     <li class="hover:text-sky-500 py-2 px-2">
-                        <nuxt-link to="/flights-by-states"> Flights by States</nuxt-link>
+                        <nuxt-link to="/flights-by-states" @click="hideDropdown"> Flights by States</nuxt-link>
                     </li>
                     <!-- <hr class="h-px my-1 mb-4 bg-gray-300 border-0"> -->
                     <li class="hover:text-sky-500 py-2 px-2">
-                        <nuxt-link to="/flights-by-airlines"> Flights by Airlines</nuxt-link>
+                        <nuxt-link to="/flights-by-airlines" @click="hideDropdown"> Flights by Airlines</nuxt-link>
                     </li>
                     <!-- <hr class="h-px my-1 mb-4 bg-gray-300 border-0"> -->
                     <li class="hover:text-sky-500 py-2 px-2">
-                        <nuxt-link to="/flights-by-countries"> Flights by Countries</nuxt-link>
+                        <nuxt-link to="/flights-by-countries" @click="hideDropdown"> Flights by Countries</nuxt-link>
                     </li>
 
                 </ul>
@@ -86,11 +88,31 @@
 </template>
 
 <script setup>
-import {ref} from 'vue';
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 
-var show = ref(false);
-var menu = ref(false);
+let show = ref(false);
+let menu = ref(false);
+const dropdownRef = ref(null);
 
+// Hide the dropdown when clicked outside
+const handleClickOutside = (event) => {
+  if (dropdownRef.value && !dropdownRef.value.contains(event.target)) {
+    show.value = false;
+  }
+};
+
+// Hide the dropdown when an item is clicked
+const hideDropdown = () => {
+  show.value = false;
+};
+
+onMounted(() => {
+  document.addEventListener('click', handleClickOutside);
+});
+
+onBeforeUnmount(() => {
+  document.removeEventListener('click', handleClickOutside);
+});
 </script>
 
 <style scoped>
