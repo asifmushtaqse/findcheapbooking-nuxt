@@ -7,7 +7,7 @@
                 </svg>
             </button>
             <div class="flex flex-col w-full">
-                <div v-show="menu" class="absolute top-0 left-0 right-0 text-gray-900 space-y-2 divide-gray-300 divide-y-[1px] mt-16 pl-3 h-screen w-full bg-slate-200 shadow font-medium ">
+                <div v-show="menu" class="absolute top-0 left-0 right-0 text-gray-900 space-y-2 divide-gray-400 divide-y-2 mt-16 px-3 h-screen w-full bg-slate-200 shadow font-medium ">
                     <ul class="pt-4">
                       <li class="flex items-center space-x-2 hover:text-sky-500 hover:bg-gray-300 hover:rounded-lg py-2 px-2">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" class="w-4 h-4 "> <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
