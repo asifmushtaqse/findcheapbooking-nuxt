@@ -112,19 +112,18 @@
 
         <hr class="h-px bg-gray-600 border-0">
 
-        <div class="flex flex-col md:flex-row px-2 py-6 justify-center items-center bg-gray-900 text-gray-400 font-light">
+        <div class="flex flex-col md:flex-row px-2 py-6 justify-center text-center items-center bg-gray-900 text-gray-400 font-light">
             <p >
                 &copy; 2023 
-                <nuxt-link to="https://findcheapbooking.com/" target="_blank"
-                class=" hover:text-sky-600 hover:cursor-pointer font-normal">
-                    findcheapbooking.com 
+                <nuxt-link to="/" class="text-sky-500 hover:text-sky-600 hover:cursor-pointer font-normal">
+                    FindCheapBooking.com
                 </nuxt-link>
-                All Right Reserved. 
+                 - All Right Reserved.
             </p>
-            <p class="ml-1">Developed by
+            <p class="md:ml-1">Developed by
                 <nuxt-link to="https://climesoft.com/" target="_blank"
                     class="text-sky-500 hover:text-sky-600 hover:cursor-pointer font-normal">
-                    climesoft.com
+                    Climesoft.com
                 </nuxt-link>
             </p>
 
