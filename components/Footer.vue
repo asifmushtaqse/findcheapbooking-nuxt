@@ -2,7 +2,7 @@
     <div>
         <div class="flex justify-center text-gray-100  font-medium bg-gray-800">
 
-            <div class="flex flex-col md:flex-row w-[1500px] py-16 px-4 lg:px-10 justify-between space-y-10 md:space-y-0 ">
+            <div class="flex flex-col md:flex-row w-[1500px] py-10 px-4 lg:px-10 justify-between space-y-10 md:space-y-0 ">
 
                 <div>
                     <div>

@@ -61,7 +61,7 @@
 <!--                         searches for flight deals on hundreds of airline tickets sites to help you find the cheapest flights.-->
 <!--                          Whether you are looking for a last minute flight or a cheap plane ticket for a later date, you can find the best deals faster at <span class="font-normal"><NuxtLink to="/" class="text-sky-600">FindCheapBooking.com</NuxtLink></span>.-->
                     </p>
-                    <div class="grid mt-8 gap-y-5 grid-cols-1 md:grid-cols-3 xl:grid-cols-4">
+                    <div class="grid mt-10 gap-y-5 grid-cols-1 md:grid-cols-3 xl:grid-cols-4 font-medium">
                         <div>
                             <nuxt-link to="/flights-to-new-york-city" class=" hover:cursor-pointer hover:text-sky-500">
                                 <span>Find Cheap Flights to New York</span>

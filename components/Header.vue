@@ -3,17 +3,22 @@
       class="fixed top-0 z-50 flex justify-between md:justify-around md:font-medium py-4 md:py-5 px-4 w-full md:text-lg text-gray-900 justify-between items-center border-b-[1px] border-gray-300 shadow bg-white">
     <!-- Mobile View -->
     <div class="flex items-center static md:hidden">
-      <button @click="menu = !menu">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24">
+      <button @click="toggleMenu">
+        <!-- Hamburger Icon -->
+        <svg v-if="!menu" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24">
           <g>
             <path fill="none" d="M0 0h24v24H0z"/>
             <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"/>
           </g>
         </svg>
+        <!-- Cross Icon -->
+        <svg v-if="menu" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24">
+          <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M20 20L4 4m16 0L4 20"/>
+        </svg>
       </button>
-      <div class="flex flex-col w-full">
-        <div v-show="menu"
-             class="absolute top-[1px] left-0 right-0 text-gray-900 space-y-2 divide-gray-400 divide-y-2 mt-16 px-3 h-screen w-full bg-gray-50 shadow font-medium ">
+      <div  class="flex flex-col w-full ">
+        <div
+            v-show="menu" class="absolute top-[1px] left-0 right-0 h-screen text-gray-900 space-y-2 divide-gray-400 divide-y-2 mt-16 px-3  bg-gray-50 shadow font-medium ">
           <ul class="pt-2">
             <li class="flex items-center space-x-2 hover:text-sky-500 hover:bg-gray-300 hover:rounded-lg py-2 px-2">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor"
@@ -282,10 +287,13 @@
 
 let showFlights = ref(false);
 let showDeals = ref(false);
-let menu = ref(false);
+const menu = ref(false);
 const dropdownRef = ref(null);
 const dropdownRef2 = ref(null);
 
+const toggleMenu = () => {
+  menu.value = !menu.value;
+}
 const hideDropdown = () => {
   showFlights.value = false;
   showDeals.value = false;
