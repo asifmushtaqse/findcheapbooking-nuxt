@@ -83,6 +83,13 @@
 </template>
 
 <script setup>
-import { stringToUrl } from '../utils/functions';
+import { stringToUrl } from '~/utils/functions';
 import states from '~/content/states.json';
+
+useHead({
+  title: 'Flights to All States - FindCheapBooking',
+  meta: [
+    { name: 'description', content: 'FindCheapBooking.com is a trusted online portal that helps travelers find the cheapest flights and hotels worldwide through affiliates, without added fees.' }
+  ],
+})
 </script>

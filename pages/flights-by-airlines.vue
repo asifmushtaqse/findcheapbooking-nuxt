@@ -12,7 +12,7 @@
                 class="grid space-y-2 py-12 text-sm md:text-base grid-cols-2 md:grid-cols-3 xl:grid-cols-4 place-items-start">
                 <div v-for="airline in airlines" :key="airline">
                     
-                    <nuxt-link :to="stringToUrl('flights-to-'+airline+'-airline')"
+                    <nuxt-link :to="stringToUrl('flights-to-'+airline)"
                         class="hover:cursor-pointer text-sky-600 hover:text-sky-500">
                         {{ airline }} Flights
                     </nuxt-link>
@@ -82,11 +82,14 @@
 </template>
 
 <script setup>
-import { stringToUrl } from '../utils/functions';
+import { stringToUrl } from '~/utils/functions';
 import airlines from '~/content/airlines.json';
 const {airlineName} = useRoute().params
-// const airlines = airlineData
-// console.log(airlines)
-// const route = useRoute();
-// const airlines = route.params.airlineData
+
+useHead({
+  title: 'Flights to All Airlines - FindCheapBooking',
+  meta: [
+    { name: 'description', content: 'FindCheapBooking.com is a trusted online portal that helps travelers find the cheapest flights and hotels worldwide through affiliates, without added fees.' }
+  ],
+})
 </script>
