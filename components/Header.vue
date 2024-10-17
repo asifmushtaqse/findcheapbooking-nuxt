@@ -145,12 +145,13 @@
     <div>
       <nuxt-link to="/" class="flex">
         <div class="flex items-center hover:text-sky-500">
+         <!--   AirPlane Icon   -->
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor"
-               class="w-6 h-6 ">
+               class="w-5 h-5 ">
             <path
                 d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
           </svg>
-          <span class="ml-1 md:text-xl font-bold" @click="hideDropdown">Find Cheap Booking</span>
+          <span class="ml-1 md:text-xl text-lg font-semibold" @click="hideDropdown">Find Cheap Booking</span>
         </div>
       </nuxt-link>
     </div>
